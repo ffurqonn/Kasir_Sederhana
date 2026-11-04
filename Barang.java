@@ -1,0 +1,29 @@
+public class Barang {
+    private final String nama;
+    private final double harga;
+    private final int jumlah;
+
+    public Barang(String nama, double harga, int jumlah) {
+        this.nama = nama;
+        this.harga = harga;
+        this.jumlah = jumlah;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public double getHarga() {
+        return harga;
+    }
+
+    public int getJumlah() {
+        return jumlah;
+    }
+
+    public double hitungSubtotal() {
+        return harga * jumlah;
+    }
+}
+
+
